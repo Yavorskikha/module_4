@@ -24,7 +24,7 @@ def api_test():
       return {"prophecies": generate_prophecies()}
    
 run(
-	host="localhost", 
+	host="https://yavorskikha.github.io/module_4/", 
 	port=8080, 
 	debug=True,
 	reloader = True
