@@ -43,7 +43,7 @@
   
   <script language="javascript">
     // console.log( {{ x }} );
-    advice_url = "/api/forecasts"
+    advice_url = "http://sf-pyw.mosyag.in/m04/api/forecasts"
     $("#head_click").click(function() { 
       $.getJSON(advice_url, function(data) {
         advice = data["prophecies"]
